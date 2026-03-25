@@ -450,7 +450,7 @@ function PredictPage({ logs, setLogs, addToast }) {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/predict", {
+      const res = await fetch("https://caps-project-t8uu.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
