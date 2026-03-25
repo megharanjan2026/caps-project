@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ML data files (too large for GitHub)
+ml/data/
+ml/models/
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
